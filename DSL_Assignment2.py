@@ -1,5 +1,15 @@
 # SPPU DSL Assignment 2 ( Subject code: 210246 )
 
+'''
+Write  a  Python  program  to  store  marks  scored  in  subject  “Fundamental  of  Data Structure” by N students in the class. 
+Write functions to compute following:
+a)The average score of class 
+b)Highest score and lowest score of class 
+c)Count of students who were absent for the test
+d)Display mark with highest frequency
+'''
+
+
 print("*****************Welcome!*****************")
 marks_list = [67, '', 99, 100, 'AB', 68, 70, 90, 68, 83, 'NA', 55, 76, 60, 88]
 print('The list of marks scored by students in subject FDS are as follows:')
