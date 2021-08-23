@@ -35,7 +35,7 @@ def menu():
         menu()
 
     elif choice == 4:
-        print("Marks with highest frequency: ", end="")
+        print("**** Marks with highest frequency ****")
         freqHigh()
         print("******************************************")
         menu()
@@ -102,8 +102,8 @@ def freqHigh():
         if freq > max:
             max = freq
             res = i
-    print(str(res))
-    print(max)
+    print('Highest Frequency: ', max)
+    print('Marks which has highest frequency:', str(res))     
 
 
 menu()
