@@ -1,8 +1,5 @@
 # SPPU DSL Assignment 2 ( Subject code: 210246 )
 
-from typing import Counter
-
-
 print("*****************Welcome!*****************")
 marks_list = [67, '', 99, 100, 'AB', 68, 70, 90, 68, 83, 'NA', 55, 76, 60, 88]
 print('The list of marks scored by students in subject FDS are as follows:')
